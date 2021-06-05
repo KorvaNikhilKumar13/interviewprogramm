@@ -6,14 +6,13 @@ public class ReverseString {
 	{
 		String str ="Java World";
 		reverseString(str);
-		System.out.println();
 	}
 	public static void reverseString(String str)
 	{
 		char [] ch =str.toCharArray();
 		for (int i=ch.length-1;i>= 0; i--) 
 		{
-			System.out.print(ch[i]);
+			System.out.print("The Reverse of the String is " +ch[i]);
 		}
 	}
 
